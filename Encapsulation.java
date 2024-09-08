@@ -1,27 +1,34 @@
-// Example of Capsulation-provide privacy of data
-// Capsulation can be excess by using getter and setter method as given in this example
-class college{
-    private String1 college_name;
+class College {
+    private String college_name;
     private int no_of_student;
-    public void setCollegeName(String1 name){
+
+    // Setter for college_name
+    public void setCollegeName(String name) {
         college_name = name;
     }
-    public String1 getCollegeName(){
+
+    // Getter for college_name
+    public String getCollegeName() {
         return college_name;
     }
-    public void setNo_of_student(int number){
+
+    // Setter for no_of_student
+    public void setNoOfStudent(int number) {
         no_of_student = number;
     }
-    public int getNo_of_student(){
+
+    // Getter for no_of_student
+    public int getNoOfStudent() {
         return no_of_student;
     }
 }
+
 public class Encapsulation {
-    public static void main(String1 args[]){
-        college c = new college();
-        c.setCollegeName("gla");
-        c.setNo_of_student(10);
+    public static void main(String[] args) {
+        College c = new College();
+        c.setCollegeName("GLA");
+        c.setNoOfStudent(10);
         System.out.println(c.getCollegeName());
-        System.out.println(c.getNo_of_student());
+        System.out.println(c.getNoOfStudent());
     }
 }
