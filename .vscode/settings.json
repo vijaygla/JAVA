@@ -1,0 +1,6 @@
+{
+    "editor.indentSize": "tabSize",
+    "files.exclude": {
+        "**/*.class": true
+    }
+}
