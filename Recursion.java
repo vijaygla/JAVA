@@ -1,17 +1,17 @@
-// // JAVA PROGRAM TO PRINT THE NUMMBER FROM 1 TO 5 USING RECURSION.
-// public class Recursion{
-//     public static void printNumber(int n){
-//         if(n==0){
-//             return;
-//         }
-//         System.out.println(n);
-//         printNumber(n-1);
-//     }
-//     public static void main(String[] args) {
-//         int n=5;
-//         printNumber(n);
-//     }
-// }
+// JAVA PROGRAM TO PRINT THE NUMMBER FROM 1 TO 5 USING RECURSION.
+public class Recursion{
+    public static void printNumber(int n){
+        if(n==0){
+            return;
+        }
+        System.out.println(n);
+        printNumber(n-1);
+    }
+    public static void main(String[] args) {
+        int n=5;
+        printNumber(n);
+    }
+}
 
 
 
